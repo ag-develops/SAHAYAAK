@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #003531;
+  --color-primary-container: #0e4d48;
+  --color-on-primary: #ffffff;
+  --color-on-primary-container: #84bdb6;
+  --color-primary-fixed: #b4eee6;
+  --color-on-primary-fixed: #00201d;
+
+  --color-secondary: #994703;
+  --color-secondary-container: #fc934f;
+  --color-on-secondary: #ffffff;
+  --color-on-secondary-container: #6d3000;
+  --color-secondary-fixed: #ffdbc9;
+  --color-secondary-fixed-dim: #ffb68c;
+  --color-on-secondary-fixed: #321200;
+
+  --color-surface: #f2fbf9;
+  --color-on-surface: #141d1c;
+  --color-on-surface-variant: #404947;
+  --color-surface-dim: #d2dcda;
+  --color-surface-bright: #f2fbf9;
+  --color-surface-container-lowest: #ffffff;
+  --color-surface-container-low: #ecf6f4;
+  --color-surface-container: #e6f0ee;
+  --color-surface-container-high: #e0eae8;
+  --color-surface-container-highest: #dbe5e2;
+
+  --color-outline: #707977;
+  --color-outline-variant: #bfc8c6;
+
+  --font-body: "Plus Jakarta Sans", sans-serif;
+
+  --spacing-space-xs: 0.5rem;
+  --spacing-space-sm: 0.75rem;
+  --spacing-space-md: 1.25rem;
+  --spacing-space-lg: 2rem;
+  --spacing-space-xl: 3rem;
+  --spacing-gutter: 1.5rem;
+  --spacing-margin: 3rem;
+}
+
+@layer base {
+  html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #f2fbf9;
+    font-family: "Plus Jakarta Sans", sans-serif;
+  }
+}
+
+/* Hide scrollbar for clean editorial look */
+::-webkit-scrollbar {
+  display: none;
+}
